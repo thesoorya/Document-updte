@@ -3,15 +3,15 @@ import "./Common.css";
 import { StoreContext } from "../context/Store";
 
 const Persons = () => {
-  const { close, setClose, setHeading, details, handleDocumentSubmit, handleShowDocuments, personDocuments } = useContext(StoreContext);
+  const { close, setClose, setHeading, details, handleDocumentSubmit, handleShowDocuments } = useContext(StoreContext);
 
   function handleModal() {
     setClose(!close);
     setHeading("person");
   }
 
-  console.log(details);
-  console.log(personDocuments);
+  // console.log(details);
+  // console.log(personDocuments);
 
   return (
     <div className="personContainer">

@@ -18,7 +18,7 @@ const Modal = () => {
         setClose(false);
     }
 
-    console.log(details);
+    // console.log(details);
 
 
     return (
